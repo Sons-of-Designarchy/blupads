@@ -71,11 +71,13 @@ line-height: 140%;
   }
 
   .banner {
-right: 0%;
-    background-image: url(../assets/Desktop/Banner.png);
+    right: 0%;
     width: 868px;
-    height: 533px;
+    height: 600px;
     position: absolute;
+    background: url(../assets/Desktop/fondo.png);
+    background-repeat: no-repeat;
+background-position: bottom center;
   }
 
   .fondo {
@@ -264,6 +266,23 @@ margin-left: 200px;
   
 height: 600px;
 
+}
+
+.header-video-container {
+  padding-right: 4rem;
+  margin: -4rem 0;
+}
+
+.header-video-mobile {
+  padding: 1rem;
+}
+
+.header-video-mobile iframe {
+  height: 250px;
+}
+
+.header-video {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
 }
 
 
