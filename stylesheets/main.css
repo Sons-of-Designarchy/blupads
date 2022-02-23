@@ -183,10 +183,13 @@ margin-left: 200px;
   align-items: center;
  }
 
- #facebook {
-  left: 500px;
-  top: 30px;
+ @media (min-width: 769px) {
+   #facebook {
+    left: 500px;
+    top: 30px;
+   }
  }
+
 
  #whitelogo {
   top: 40px;
