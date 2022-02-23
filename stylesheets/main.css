@@ -157,6 +157,12 @@ margin-left: 200px;
     display: block;
   }
 
+  @media (max-width: 768px) {
+    .recgris {
+      margin-left: 0;
+    }
+  }
+
 
   .recgrisc {
    
