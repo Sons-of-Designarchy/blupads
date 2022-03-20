@@ -149,7 +149,7 @@ height: 482.54px;
   }
 
   .recgris {
-    width: 381px;
+    width: 100%;
     height: 464px;
 margin-left: 200px;
     background-image: url(../assets/Desktop/recgris.png);
@@ -202,19 +202,13 @@ margin-left: 200px;
 
  #getbetter {
    color: #FFFFFF;
-  font-size: 102px;
- line-height: 126px;
+  font-size: 90px;
+ line-height: 90px;
  }
 
  #sound {
    color:  #0A83ED;
-   font-size: 102px;
- }
-
-
-
- #facebookc {
-   left: 40px;
+   font-size: 90px;
  }
 
  .btn-verc {
@@ -244,7 +238,7 @@ margin-left: 200px;
   }
 
   #lineac {
-    width: 450px;
+    width: 100vw;
     height: 2px;
     background: #0A83ED;
   }
