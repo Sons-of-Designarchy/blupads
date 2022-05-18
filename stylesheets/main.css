@@ -289,5 +289,10 @@ height: 600px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
 }
 
+.comprar-button {
+  max-width: 209px;
+  margin-top: -19px;
+}
+
 
 
