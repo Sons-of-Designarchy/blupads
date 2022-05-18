@@ -37,6 +37,143 @@
           <!-- <a href="#">
                 <img style="margin-top: 7%;" class="facebook" src="assets/responsiva/vector.png" alt="facebook">
               </a> -->
+          <div id='product-component-1652889953522'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'blupads3.myshopify.com',
+      storefrontAccessToken: '1d33c035b49fe1dbfd8a49049364fa18',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '6803124748381',
+        node: document.getElementById('product-component-1652889953522'),
+        moneyFormat: '%24%20%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        ":hover": {
+          "background-color": "#4fb7e6"
+        },
+        "background-color": "#58cbff",
+        ":focus": {
+          "background-color": "#4fb7e6"
+        }
+      }
+    },
+    "contents": {
+      "img": false,
+      "title": false,
+      "price": false
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        ":hover": {
+          "background-color": "#4fb7e6"
+        },
+        "background-color": "#58cbff",
+        ":focus": {
+          "background-color": "#4fb7e6"
+        }
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        ":hover": {
+          "background-color": "#4fb7e6"
+        },
+        "background-color": "#58cbff",
+        ":focus": {
+          "background-color": "#4fb7e6"
+        }
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    },
+    "popup": false
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#58cbff",
+        ":hover": {
+          "background-color": "#4fb7e6"
+        },
+        ":focus": {
+          "background-color": "#4fb7e6"
+        }
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
           <a class="ml-4" href="https://www.instagram.com/blupads/">
             <img style="margin-top: 7%;" src="assets/responsiva/ic-instagram.png" alt="instagram">
           </a>
@@ -46,7 +183,7 @@
   </div>
 
   <div class="mt-4 pt-5 pb-1 d-block d-sm-block d-md-none">
-    <div class="container">      
+    <div class="container">
       <div class="row">
         <div class="col-6 d-block d-sm-block d-md-none">
           <h1 id="getbetter"> <b>GET</b><br> <b>BETTER</b> </h1>
@@ -84,7 +221,7 @@
     <h5>¿PORQUÉ BLUPADS?</h5>
     <br><br>
     <h3>Olvídate del duck tape, <br> la cartera y las almohadas</h3> <br>
-    <p style=" font-weight: 200;">La masa acrílica <FONT COLOR="#0B87EF"> <b>BluPads</b> </FONT> se adhiere 
+    <p style=" font-weight: 200;">La masa acrílica <FONT COLOR="#0B87EF"> <b>BluPads</b> </FONT> se adhiere
       perfectamente a cualquier parche, platillo y a cualquier instrumento de percusión. </p>
     <img id="pads" class="mt-5 mb-5" src="assets/responsiva/group1.png" alt="pads">
 
@@ -107,7 +244,7 @@
       <h3 style="color: white;"> <br><br> No importa si es un concierto en vivo o una sesión de grabación en
         estudio, BluPads te ayudarán a crear el sonido perfecto.</h3>
     </div>
-  </div>i
+  </div>
   <nav class="navbar navbar-light border-bottom d-none d-sm-none d-md-block">
     <div class="container">
       <a class="navbar-brand" href="#">
@@ -171,7 +308,7 @@
           <h5>¿PORQUÉ BLUPADS?</h5>
           <br><br>
           <h3>Olvídate del duck tape, <br> la cartera y las almohadas</h3> <br>
-          <p style=" font-weight: 200;">La masa acrílica <FONT COLOR="#0B87EF"> <b>BluPads</b> </FONT> se adhiere 
+          <p style=" font-weight: 200;">La masa acrílica <FONT COLOR="#0B87EF"> <b>BluPads</b> </FONT> se adhiere
             perfectamente a cualquier parche,platillo y a cualquier instrumento de percusión. </p>
         </div>
 
@@ -222,8 +359,7 @@
 
       </div>
       <div class="col-4 mb-5" style="display: inline-flex;">
-        <img class="mr-5" style="Width: 80px; Height: 80px;" src="assets/Desktop/Vector-3.png"
-          alt="tijeras">
+        <img class="mr-5" style="Width: 80px; Height: 80px;" src="assets/Desktop/Vector-3.png" alt="tijeras">
         <h3 style="color: #939393;">Fácil de <br> cortar</h3>
       </div>
       <div class="col-4 mb-5" style="display: inline-flex;">
@@ -231,18 +367,15 @@
         <h3 style="color: #939393;">Uso <br> múltiple</h3>
       </div>
       <div class="col-4" style="display: inline-flex;">
-        <img class="mr-5" style="Width: 80px; Height: 80px;" src="assets/Desktop/Vector-5.png"
-          alt="notoxico">
+        <img class="mr-5" style="Width: 80px; Height: 80px;" src="assets/Desktop/Vector-5.png" alt="notoxico">
         <h3 style="color: #939393;">No <br> tóxico</h3>
       </div>
       <div class="col-4" style="display: inline-flex">
-        <img class="mr-5" style="Width: 80px; Height: 80px;" src="assets/Desktop/Vector-6.png"
-          alt="adhesion">
+        <img class="mr-5" style="Width: 80px; Height: 80px;" src="assets/Desktop/Vector-6.png" alt="adhesion">
         <h3 style="color: #939393;"> Excelente <br> adhesión </h3>
       </div>
       <div class="col-4" style="display: inline-flex;">
-        <img class="mr-5" style="Width: 80px; Height: 80px;" src="assets/Desktop/Vector-7.png"
-          alt="flexibilidad">
+        <img class="mr-5" style="Width: 80px; Height: 80px;" src="assets/Desktop/Vector-7.png" alt="flexibilidad">
         <h3 style="color: #939393;">Excelente <br> flexibilidad</h3>
       </div>
       <div class="ml-4">
@@ -303,7 +436,7 @@
     </div>
   </div>
 
-  <div class="container pb-5 mb-5" id="comprar" >
+  <div class="container pb-5 mb-5" id="comprar">
     <div class="row">
       <div class="col mt-5  d-none d-sm-none d-md-block">
         <img class="getbetterimage" src="assets/Desktop/group2.png" alt="getbetterimage">
@@ -318,8 +451,10 @@
           <p style="font-size: 14px; line-height: 22px;">
             <font style=" color: black"> <b>Construcción </b></font> <br> Adhesivo: Acrílico <br>Colores: Azul
             traslucido <br>Revestimiento: PET film (White)
-            <div id='product-component-1652828602211'></div>
-            <script type="text/javascript">
+          <div id='product-component-1652828602211'></div>
+
+          <div id='product-component-1652889836247'></div>
+          <script type="text/javascript">
             /*<![CDATA[*/
             (function () {
               var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
@@ -341,166 +476,120 @@
               }
               function ShopifyBuyInit() {
                 var client = ShopifyBuy.buildClient({
-                  domain: 'blupadsmx.myshopify.com',
-                  storefrontAccessToken: 'f0ff286b968b78e88820c1de1d7a2ce5',
+                  domain: 'blupads3.myshopify.com',
+                  storefrontAccessToken: '1d33c035b49fe1dbfd8a49049364fa18',
                 });
                 ShopifyBuy.UI.onReady(client).then(function (ui) {
                   ui.createComponent('product', {
-                    id: '7609012551906',
-                    node: document.getElementById('product-component-1652828602211'),
+                    id: '6803124748381',
+                    node: document.getElementById('product-component-1652889836247'),
                     moneyFormat: '%24%20%7B%7Bamount%7D%7D',
                     options: {
-              "product": {
-                "styles": {
-                  "product": {
-                    "@media (min-width: 601px)": {
-                      "max-width": "calc(25% - 20px)",
-                      "margin-left": "20px",
-                      "margin-bottom": "50px"
-                    }
-                  },
-                  "title": {
-                    "color": "#000000",
-                    "display": "none",
-                  },
-                  "button": {
-                    "font-weight": "bold",
-                    ":hover": {
-                      "background-color": "#0a7ad7"
+                      "product": {
+                        "styles": {
+                          "product": {
+                            "@media (min-width: 601px)": {
+                              "max-width": "calc(25% - 20px)",
+                              "margin-left": "20px",
+                              "margin-bottom": "50px"
+                            }
+                          },
+                          "button": {
+                            ":hover": {
+                              "background-color": "#4fb7e6"
+                            },
+                            "background-color": "#0B87EF",
+                            ":focus": {
+                              "background-color": "#4fb7e6"
+                            }
+                          }
+                        },
+                        "contents": {
+                          "img": false,
+                          "title": false,
+                          "price": false
+                        },
+                        "text": {
+                          "button": "Agregar al carrito"
+                        }
+                      },
+                      "productSet": {
+                        "styles": {
+                          "products": {
+                            "@media (min-width: 601px)": {
+                              "margin-left": "-20px"
+                            }
+                          }
+                        }
+                      },
+                      "modalProduct": {
+                        "contents": {
+                          "img": false,
+                          "imgWithCarousel": true,
+                          "button": false,
+                          "buttonWithQuantity": true
+                        },
+                        "styles": {
+                          "product": {
+                            "@media (min-width: 601px)": {
+                              "max-width": "100%",
+                              "margin-left": "0px",
+                              "margin-bottom": "0px"
+                            }
+                          },
+                          "button": {
+                            ":hover": {
+                              "background-color": "#4fb7e6"
+                            },
+                            "background-color": "#58cbff",
+                            ":focus": {
+                              "background-color": "#4fb7e6"
+                            }
+                          }
+                        },
+                        "text": {
+                          "button": "Add to cart"
+                        }
+                      },
+                      "option": {},
+                      "cart": {
+                        "styles": {
+                          "button": {
+                            ":hover": {
+                              "background-color": "#4fb7e6"
+                            },
+                            "background-color": "#58cbff",
+                            ":focus": {
+                              "background-color": "#4fb7e6"
+                            }
+                          }
+                        },
+                        "text": {
+                          "total": "Subtotal",
+                          "button": "Checkout"
+                        },
+                        "popup": false
+                      },
+                      "toggle": {
+                        "styles": {
+                          "toggle": {
+                            "background-color": "#58cbff",
+                            ":hover": {
+                              "background-color": "#4fb7e6"
+                            },
+                            ":focus": {
+                              "background-color": "#4fb7e6"
+                            }
+                          }
+                        }
+                      }
                     },
-                    "background-color": "#0b87ef",
-                    ":focus": {
-                      "background-color": "#0a7ad7"
-                    },
-                    "border-radius": "40px",
-                    "padding-left": "48px",
-                    "padding-right": "48px"
-                  },
-                  "price": {
-                    "font-weight": "bold",
-                    "display": "none",
-                  },
-                  "compareAt": {
-                    "font-weight": "bold"
-                  },
-                  "unitPrice": {
-                    "font-weight": "bold"
-                  }
-                },
-                "text": {
-                  "button": "Agregar al carrito"
-                }
-              },
-              "productSet": {
-                "styles": {
-                  "products": {
-                    "@media (min-width: 601px)": {
-                      "margin-left": "-20px"
-                    }
-                  }
-                }
-              },
-              "modalProduct": {
-                "contents": {
-                  "img": false,
-                  "imgWithCarousel": true,
-                  "button": false,
-                  "buttonWithQuantity": true
-                },
-                "styles": {
-                  "product": {
-                    "@media (min-width: 601px)": {
-                      "max-width": "100%",
-                      "margin-left": "0px",
-                      "margin-bottom": "0px"
-                    }
-                  },
-                  "button": {
-                    "font-weight": "bold",
-                    ":hover": {
-                      "background-color": "#0a7ad7"
-                    },
-                    "background-color": "#0b87ef",
-                    ":focus": {
-                      "background-color": "#0a7ad7"
-                    },
-                    "border-radius": "40px",
-                    "padding-left": "48px",
-                    "padding-right": "48px"
-                  },
-                  "title": {
-                    "font-family": "Helvetica Neue, sans-serif",
-                    "font-weight": "bold",
-                    "font-size": "26px",
-                    "color": "#4c4c4c"
-                  },
-                  "price": {
-                    "font-family": "Helvetica Neue, sans-serif",
-                    "font-weight": "normal",
-                    "font-size": "18px",
-                    "color": "#4c4c4c"
-                  },
-                  "compareAt": {
-                    "font-family": "Helvetica Neue, sans-serif",
-                    "font-weight": "normal",
-                    "font-size": "15.299999999999999px",
-                    "color": "#4c4c4c"
-                  },
-                  "unitPrice": {
-                    "font-family": "Helvetica Neue, sans-serif",
-                    "font-weight": "normal",
-                    "font-size": "15.299999999999999px",
-                    "color": "#4c4c4c"
-                  }
-                },
-                "text": {
-                  "button": "Add to cart"
-                }
-              },
-              "option": {},
-              "cart": {
-                "styles": {
-                  "button": {
-                    "font-weight": "bold",
-                    ":hover": {
-                      "background-color": "#0a7ad7"
-                    },
-                    "background-color": "#0b87ef",
-                    ":focus": {
-                      "background-color": "#0a7ad7"
-                    },
-                    "border-radius": "40px"
-                  }
-                },
-                "text": {
-                  "title": "Carrito",
-                  "total": "Subtotal",
-                  "empty": "Tu carrito de compras está vacio",
-                  "notice": "El precio de envío se calculará en el siguiente paso.",
-                  "button": "Comprar"
-                }
-              },
-              "toggle": {
-                "styles": {
-                  "toggle": {
-                    "font-weight": "bold",
-                    "background-color": "#0b87ef",
-                    ":hover": {
-                      "background-color": "#0a7ad7"
-                    },
-                    ":focus": {
-                      "background-color": "#0a7ad7"
-                    }
-                  }
-                }
-              }
-            },
                   });
                 });
               }
             })();
-            /*]]>*/
-            </script>
+/*]]>*/
+          </script>
           </p>
         </div>
       </div>
